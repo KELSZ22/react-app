@@ -1,3 +1,4 @@
+import Michael from '../assets/images/cover2.png'
 
 function Header (){
 
@@ -15,7 +16,7 @@ function Header (){
 
            </div>
 
-            <img src="/cover2.png" alt="michael_pogi.png" height="500px"/>
+            <img src={Michael} alt="michael_pogi.png" height="500px"/>
 
 
         </div>

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'; 
 import {Link} from 'react-router-dom';
+import Logo from '../assets/images/logo.png'
+
 function Navbar() {
 
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +14,7 @@ function Navbar() {
     <>
     <nav className="navbar">
       <div className="navbar-brand">
-        <a href="#"><img src="/logo.png" alt="Logo.png" width="100px" />
+        <a href="#"><img src={Logo} alt="Logo.png" width="100px" />
         </a>
       </div>
 
